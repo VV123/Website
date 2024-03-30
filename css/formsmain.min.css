@@ -25,7 +25,7 @@
 }
 
 .gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: inherit;
     letter-spacing: normal;
     padding: 5px 4px
@@ -38,7 +38,7 @@
 }
 
 .gform_legacy_markup_wrapper textarea {
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: inherit;
     letter-spacing: normal;
     line-height: 1.5;
@@ -113,7 +113,7 @@ html>body .entry ul {
 }
 
 .gform_legacy_markup_wrapper select {
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: inherit;
     letter-spacing: normal
 }
@@ -236,7 +236,7 @@ html>body .entry ul {
 
 .gform_legacy_markup_wrapper .gfield_time_hour i {
     float: right;
-    font-family: sans-serif !important;
+    font-family: Arial, sans-serif !important;
     font-style: normal !important;
     margin-top: 9%;
     text-align: center;
@@ -554,7 +554,7 @@ body .gform_legacy_markup_wrapper ul li.field_description_below div.ginput_conta
 .gform_legacy_markup_wrapper .gsection_description,
 .gform_legacy_markup_wrapper .instruction {
     clear: both;
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: .813em;
     letter-spacing: normal;
     line-height: inherit
@@ -634,7 +634,7 @@ body .gform_legacy_markup_wrapper ul li.field_description_below div.ginput_conta
 
 .gform_legacy_markup_wrapper li.gfield.gfield_creditcard_warning div.gfield_creditcard_warning_message {
     color: #790000;
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: .875em;
     font-weight: 700;
     max-width: 100%;
@@ -1190,7 +1190,7 @@ body .gform_legacy_markup_wrapper ul.gform_fields li.gfield.gform_validation_con
 
 .gform_legacy_markup_wrapper .gf_progressbar_percentage {
     border-radius: 10.5px;
-    font-family: helvetica, arial, sans-serif;
+    font-family: arial, sans-serif;
     font-size: 13px !important;
     height: 21px;
     text-align: right;
@@ -1301,7 +1301,7 @@ body .gform_legacy_markup_wrapper ul.gform_fields li.gfield.gform_validation_con
 
 .gform_legacy_markup_wrapper .gf_step {
     filter: alpha(opacity=20);
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     font-size: .875em;
     height: 14px;
     line-height: 1.25 !important;
@@ -1997,7 +1997,7 @@ body .gform_legacy_markup_wrapper div.gform_body ul.gform_fields li.gfield.gfiel
     background: url(../images/chosen-sprite.png) no-repeat 100% -20px;
     border: 1px solid #aaa;
     border-radius: 0;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-size: 1em;
     height: auto;
     line-height: normal;
@@ -2108,7 +2108,7 @@ body .gform_legacy_markup_wrapper div.gform_body ul.gform_fields li.gfield.gfiel
     border-radius: 0;
     box-shadow: none;
     color: #999;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-size: 100%;
     height: 25px;
     line-height: normal;
@@ -3098,4 +3098,8 @@ only screen and (max-width:761px) {
 .gform_legacy_markup_wrapper .gfield_repeater_value .gfield_label,
 .gform_legacy_markup_wrapper .gfield_repeater_value .gfield_repeater_value .gfield_repeater_item:first-child {
     padding-bottom: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif !important;
 }

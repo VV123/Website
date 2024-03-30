@@ -1,5 +1,10 @@
 @import url(1.css);
-@font-face{
-font-family:"Beton W01 Bold";
-src:url("../fonts/c8a31ed5-37ad-4ded-bd1a-ae4fd6ebd6e8.woff2") format("woff2"),url("../fonts/54071c0b-a68b-41ee-9eb2-3f7c76909a73.woff") format("woff");
+@font-face {
+    font-family: "Beton W01 Bold";
+    src: url("../fonts/c8a31ed5-37ad-4ded-bd1a-ae4fd6ebd6e8.woff2") format("woff2"), 
+         url("../fonts/54071c0b-a68b-41ee-9eb2-3f7c76909a73.woff") format("woff");
+}
+
+body {
+    font-family: Arial, sans-serif;
 }

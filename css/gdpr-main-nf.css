@@ -425,7 +425,7 @@ body.gdpr-no-icons #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdp
     margin: 0 auto;
     margin-top: 0;
     min-height: 60vh;
-    font-family: Nunito, sans-serif;
+    font-family: Arial, sans-serif;
     content-visibility: hidden
 }
 
@@ -442,7 +442,7 @@ body.gdpr-no-icons #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdp
 #moove_gdpr_cookie_modal * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: inherit
+    font-family: Arial, sans-serif
 }
 
 #moove_gdpr_cookie_modal .cookie-switch,
@@ -1188,7 +1188,7 @@ body.gdpr-no-icons #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdp
     z-index: 9900;
     background-color: #202020;
     border-top: 1px solid #fff;
-    font-family: Nunito, sans-serif;
+    font-family: Arial, sans-serif;
     transition: bottom .3s cubic-bezier(.17, .04, .03, .94)
 }
 
@@ -1299,7 +1299,7 @@ body.gdpr-no-icons #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdp
 }
 
 #moove_gdpr_cookie_info_bar * {
-    font-family: inherit;
+    font-family: Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -2676,7 +2676,7 @@ i.moovegdpr-arrow-close i.moovegdpr-arrow-close:before {
         -ms-flex-pack: center;
         justify-content: center;
         line-height: 1;
-        font-family: Georgia, serif
+        font-family: Arial, sans-serif
     }
 
     #moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v1 .main-modal-content #advanced-cookies .moove-gdpr-tab-main-content,
@@ -2701,4 +2701,8 @@ i.moovegdpr-arrow-close i.moovegdpr-arrow-close:before {
     #moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v2 .moove-gdpr-branding-cnt {
         opacity: 0
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif !important;
 }

@@ -74,7 +74,7 @@ body .gform_wrapper.gf_reset_wrapper th,
 body .gform_wrapper.gf_reset_wrapper thead,
 body .gform_wrapper.gf_reset_wrapper tr,
 body .gform_wrapper.gf_reset_wrapper ul {
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -101,4 +101,8 @@ body .gform_wrapper.gf_reset_wrapper a img {
 }
 body .gform_wrapper.gf_reset_wrapper :focus {
   outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif !important;
 }

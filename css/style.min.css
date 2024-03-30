@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body, button, input, select, textarea {
+  font-family: Arial, sans-serif;
+}
+
+
 
 .wp-block-archives {
   box-sizing: border-box
@@ -297,10 +302,11 @@
 
 .wp-block-code code {
   display: block;
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   overflow-wrap: break-word;
-  white-space: pre-wrap
+  white-space: pre-wrap;
 }
+
 
 .wp-block-columns {
   align-items: normal !important;
@@ -514,8 +520,8 @@
 .wp-block-post-comments input:not([type=submit]),
 .wp-block-post-comments textarea {
   border: 1px solid #949494;
-  font-family: inherit;
-  font-size: 1em
+  font-family: Arial, sans-serif;
+  font-size: 1em;
 }
 
 .wp-block-post-comments input:not([type=submit]):not([type=checkbox]),
@@ -2495,14 +2501,15 @@ button.wp-block-navigation-item__content {
   background-color: transparent;
   border: none;
   color: currentColor;
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   font-size: inherit;
   font-style: inherit;
   font-weight: inherit;
   line-height: inherit;
   text-align: left;
-  text-transform: inherit
+  text-transform: inherit;
 }
+
 
 .wp-block-navigation-submenu__toggle {
   cursor: pointer
@@ -2777,10 +2784,11 @@ button.wp-block-navigation-item__content {
 }
 
 .wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open {
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   font-size: inherit;
-  font-weight: inherit
+  font-weight: inherit;
 }
+
 
 @media (min-width:600px) {
   .wp-block-navigation__responsive-container-open:not(.always-shown) {
@@ -2796,10 +2804,11 @@ button.wp-block-navigation-item__content {
 }
 
 .wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close {
-  font-family: inherit;
+  font-family: Arial, sans-serif;
   font-size: inherit;
-  font-weight: inherit
+  font-weight: inherit;
 }
+
 
 .wp-block-navigation__responsive-close {
   width: 100%
@@ -2946,9 +2955,10 @@ p.has-text-align-right[style*="writing-mode:vertical-rl"] {
   font-weight: inherit
 }
 
-.wp-block-post-comments-form[style*=font-family] :where(.comment-reply-title) {
-  font-family: inherit
+.wp-block-post-comments-form[style*='font-family'] :where(.comment-reply-title) {
+  font-family: Arial, sans-serif;
 }
+
 
 .wp-block-post-comments-form[class*=-font-size] :where(.comment-reply-title),
 .wp-block-post-comments-form[style*=font-size] :where(.comment-reply-title) {
@@ -2978,9 +2988,10 @@ p.has-text-align-right[style*="writing-mode:vertical-rl"] {
 .wp-block-post-comments-form input:not([type=submit]),
 .wp-block-post-comments-form textarea {
   border: 1px solid #949494;
-  font-family: inherit;
-  font-size: 1em
+  font-family: Arial, sans-serif;
+  font-size: 1em;
 }
+
 
 .wp-block-post-comments-form input:not([type=submit]):not([type=checkbox]),
 .wp-block-post-comments-form textarea {
@@ -3588,11 +3599,12 @@ ul.wp-block-rss.is-grid li {
 .wp-block-separator.is-style-dots:before {
   color: currentColor;
   content: "···";
-  font-family: serif;
+  font-family: Arial, sans-serif;
   font-size: 1.5em;
   letter-spacing: 2em;
-  padding-left: 2em
+  padding-left: 2em;
 }
+
 
 .wp-block-site-logo {
   box-sizing: border-box;
@@ -4376,8 +4388,9 @@ pre.wp-block-verse {
 }
 
 :where(pre.wp-block-verse) {
-  font-family: inherit
+  font-family: Arial, sans-serif;
 }
+
 
 .wp-block-video {
   box-sizing: border-box
@@ -4617,4 +4630,8 @@ html :where(.is-position-sticky) {
   html :where(.is-position-sticky) {
     --wp-admin--admin-bar--position-offset: 0px
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif !important;
 }
