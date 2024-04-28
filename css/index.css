@@ -118,3 +118,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif !important;
 }
+
+@media (max-width: 768px) {
+  .bir-cta-block .cta-block-link,
+  .bir-cta-block .cta-block-image img {
+      transform: scale(0.9);
+  }
+  .bir-cta-block .cta-block-content,
+  .w-slider.our-actions .rsABlock {
+      padding: 15px; /* Reduced padding on mobile for better space utilization */
+  }
+  .h4-cta-links h4 a {
+      font-size: 16px; /* Smaller font size for mobile devices */
+      padding: 10px;
+  }
+}
