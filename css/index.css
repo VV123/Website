@@ -134,3 +134,57 @@ h1, h2, h3, h4, h5, h6 {
       padding: 10px;
   }
 }
+
+/* Existing styles for desktop */
+#HeroSliderHeading {
+  font-family: 'Georgia', serif;
+  font-size: 60px;
+  line-height: 102px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+/* Add responsive styles for mobile devices */
+@media (max-width: 768px) {
+  #rev_slider_2_1_wrapper {
+    max-width: 100%; /* Full width on mobile */
+  }
+  
+  #HeroSliderHeading {
+    font-size: 30px; /* Smaller font size for mobile */
+    line-height: 36px; /* Adjust line height for mobile */
+    left: 10%; /* Adjust left position for better spacing */
+    text-align: left; /* Align text to the left on mobile */
+  }
+  
+  /* Adjust the video size if necessary */
+  #rev_slider_2_1_wrapper video {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Optional: Adjust the video-overlay size if you have such an element */
+  .video-overlay {
+    padding-left: 10%; /* Increase padding for mobile */
+  }
+}
+
+/* Add more responsive styles if needed for different mobile devices */
+@media (max-width: 480px) {
+  #HeroSliderHeading {
+    font-size: 24px; /* Even smaller font size for very small screens */
+    line-height: 28px; /* Adjust line height for smaller screens */
+    left: 5%; /* Adjust left position for better spacing */
+  }
+  
+  /* Adjust the video-overlay padding for very small screens if needed */
+  .video-overlay {
+    padding-left: 5%;
+  }
+}
