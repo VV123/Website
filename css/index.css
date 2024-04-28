@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif !important;
 }
 
+/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   .bir-cta-block .cta-block-link,
   .bir-cta-block .cta-block-image img {
