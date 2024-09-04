@@ -3,6 +3,9 @@ body, button, input, select, textarea {
   font-family: Arial, sans-serif;
 }
 
+.w-100-important {
+  width: 100% !important;
+}
 
 
 .wp-block-archives {
