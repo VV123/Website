@@ -22833,13 +22833,13 @@ body:not(.rtl) .widget_search input[type="search"] {
     background: #d32323
 }
 
-.w-socials.color_brand .w-socials-item.youtube .w-socials-item-link {
+/* .w-socials.color_brand .w-socials-item.youtube .w-socials-item-link {
     color: #f00
 }
 
 .w-socials-item.youtube .w-socials-item-link-hover {
     background: #f00
-}
+} */
 
 .color_alternate .w-socials.style_solid .w-socials-item-link {
     background: var(--color-alt-content-bg-alt-grad)
